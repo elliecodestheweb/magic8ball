@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Magic 8 Ball!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Henny+Penny|Unkempt&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+    <h1>Magic 8 Ball</h1>
+    <p class="directions">Ask me your question, mortal:</p>
+    <input type="text" id="input"/>
+    <div class="eight-ball">
+        <div class="answer">
+            <p id="eight">8</p>
+            <p id="answer"></p>
+        </div>
+    </div>
+    <button id="button">
+        <p class="directions">Shake</p>
+    </button>
+    <input type="button" value="Ask again!" onClick="document.location.reload(true)">
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
